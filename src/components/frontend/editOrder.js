@@ -25,6 +25,7 @@ useEffect (()=>{
             
             if(us.status === 200){
                 setOrders(us.data);
+                history.push("/order");
             }else{
                 history.push("/order");
             }

@@ -63,8 +63,8 @@ export default function HomePage() {
         This example requires updating your template:
 
         ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
+        <html className="h-full bg-gray-100">
+        <body className="h-full">
         ```
       */}
       <div className="min-h-full">
@@ -76,15 +76,15 @@ export default function HomePage() {
         <main>
           <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
             {/* Replace with your content */}
-            <div class="relative"> 
+            <div className="relative"> 
               <input 
               type="text" 
               style={{ width: 100+'%' }}
               onChange={handleInput}
               onKeyPress={handleEnterKeyPressed}
-              class="h-14 w-96 pr-8 pl-5 rounded z-0 focus:shadow focus:outline-none" 
+              className="h-14 w-96 pr-8 pl-5 rounded z-0 focus:shadow focus:outline-none" 
               placeholder="Search anything..." />
-              <div class="absolute top-4 right-3"> <i class="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i> </div>
+              <div className="absolute top-4 right-3"> <i className="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i> </div>
       
           </div>
           <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
@@ -117,7 +117,7 @@ export default function HomePage() {
                                 if(product.qty === "0"){
 
                                   return (
-                                    <span style={{     position: "absolute",top: 10+"%",right: 0 }} class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-indigo-700 rounded">OUT OF STOCK</span>
+                                    <span style={{     position: "absolute",top: 10+"%",right: 0 }} className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-indigo-700 rounded">OUT OF STOCK</span>
                                   )
                                 }
                               })()

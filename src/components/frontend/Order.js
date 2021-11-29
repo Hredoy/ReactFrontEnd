@@ -53,16 +53,17 @@ useEffect (()=>{
     },[]);
 let history = useHistory();
 function increment(step){
-        if((count+step) > 0  && qty <= (count-1)){
+        if((count+step) > 0  && qty >= (count-1)){
         setPrice((count+1) * tPrice);
         setTCount(count+1);
+        // console.log(count);
         setCount(count + step);
         }
         
     
     }
 function decrement(step){
-        if((count+step) > 0 && qty <= (count-1) ){
+        if((count+step) > 0 && qty >= (count-1) ){
         setPrice((count-1) * tPrice);
         setTCount(count-1);
         setCount(count + step);

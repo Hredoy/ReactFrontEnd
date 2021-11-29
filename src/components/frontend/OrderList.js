@@ -122,8 +122,8 @@ let history = useHistory();
                                             <td>
                                                  <img style={{ width:100 }} src={"http://localhost:8000/files/"+order.image} />
                                             </td>
-                                            <td>৳{order.price*order.qty}</td>
-                                            <td>{order.qty}</td>
+                                            <td>৳{order.price*order.orderQuantity}</td>
+                                            <td>{order.orderQuantity}</td>
                                             <td>
                                                  {
                                                     (() => {
