@@ -21,5 +21,6 @@
 <p>
     If You face any kind of error in installing delete the package-lock.json file and node_modules folder then run <b>npm install</b>
 </p>
-<p>Step: 3 - Start the project </p>
+<p><b>Step: 3 - Start the project</b> </p>
+<hr />
 <p><code>npm start</code></p>
