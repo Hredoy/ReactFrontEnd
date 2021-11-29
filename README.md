@@ -12,7 +12,7 @@
 
 ## INSTALLATION PROCESSS
 
-<p><b>Step: 1 - Download / Clone This </b></p>
+<p><b>Step: 1 - Download / Clone This Git Project</b></p>
 <hr />
 <p><code>git clone https://github.com/Hredoy/ReactFrontEnd.git</code></p>
 <p><b>Step: 2 - Install Node Modules From Package.json Files</b></p>
